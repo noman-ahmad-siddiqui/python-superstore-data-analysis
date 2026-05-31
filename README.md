@@ -1,19 +1,11 @@
 # python-superstore-data-analysis
 
-A comprehensive exploratory data analysis (EDA) of the Sample Superstore dataset using Python, Pandas, Matplotlib, and Seaborn.
-
 ## Dataset Overview
-
-| Property | Details |
-|---|---|
-| **Time Period** | 2014 – 2017 |
-| **Records** | 9,994 orders |
-| **Columns** | 21 |
-| **Categories** | Furniture, Office Supplies, Technology |
-| **Regions** | East, West, Central, South |
-| **Customer Segments** | Consumer, Corporate, Home Office |
-| **States Covered** | 49 |
-
+The Sample Superstore dataset is a popular retail dataset from the United States containing 9,994 orders placed between 2014 and 2017. It consists of 21 columns covering order details, customer information, product details, and financial metrics. <br/>
+The dataset spans 49 states across 4 regions i.e. East, West, Central, and South. <br/>
+Three customer segments: Consumer, Corporate, and Home Office. <br/>
+It includes 1,850 unique products across three main categories i.e. Furniture, Office Supplies, and Technology that are further divided into sub-categories.<br/>
+Key financial columns include Sales, Profit, Discount, and Quantity, which make this dataset ideal for performing business intelligence analysis such as identifying profitable segments, understanding discount impact, analyzing regional performance, and tracking sales trends over time.
 
 ## 🔧 Libraries Used
 
@@ -32,20 +24,21 @@ A comprehensive exploratory data analysis (EDA) of the Sample Superstore dataset
 
 - ### Sales Analysis
   - Total sales
-  - Monthly sales trend
-  - Yearly sales growth
-  - Top 10 products by sales
-- ### Total sales
-  - Monthly sales trend
-  - Yearly sales growth
-  - Top 10 products by sales
+  - Monthly sales trend <br />
+    ![Monthly Sales Trend](images/monthly_sales_trend.png)
+  - Yearly sales growth <br />
+    ![Monthly Sales Trend](images/yearly_sales_growth.png)
+  - Top 10 products by sales <br />
+    ![Monthly Sales Trend](images/top_10_products_by_sales.png)
 
 - ### Profit Analysis
 
   - Total profit
-  - Profit division by category
+  - Profit division by category <br />
+    ![Monthly Sales Trend](images/profit_by_category.png)
   - Which states generate losses?
-  - Profit by sub-category
+  - Which sub-categories are profitable or loss-making?  <br />
+    ![Monthly Sales Trend](images/profit_loss_by_sub_category.png)
 
 - ### Customer Analysis
 
